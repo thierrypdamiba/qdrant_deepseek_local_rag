@@ -2,8 +2,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Setup
 Get your environment variables from:
-https://drive.google.com/file/d/1fdd6o6VzwaHEXAkTmsDegROsVPirDJJK/view?usp=sharing
-
+[https://drive.google.com/file/d/1fdd6o6VzwaHEXAkTmsDegROsVPirDJJK/view?usp=sharing
+](https://drive.google.com/file/d/1cFcVBZSi3YZ-BpMhoXNkzHfpx77QekII/view?usp=sharing)
 ## Getting Started
 
 First, run the development server:
