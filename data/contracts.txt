@@ -1,0 +1,86 @@
+[
+  {
+    "contractId": "CNTR-1001",
+    "clientName": "Alpha",
+    "manager_a_access": "true",
+    "manager_b_access": "false",
+    "contractTitle": "Advanced Cloud Services Agreement",
+    "summary": "This Agreement is made between Alpha and North Star Support for the delivery of high-availability cloud services. Under this Agreement, North Star Support will provide comprehensive IT solutions including 24/7 support, proactive monitoring, and prompt incident management. The services include, but are not limited to, cloud hosting, data backup, and disaster recovery measures, all delivered in accordance with stringent industry standards and regulatory requirements.",
+    "terms": "North Star Support guarantees a minimum uptime of 99.9% per month. In the event of any service disruption, North Star Support shall immediately notify Alpha and take all necessary steps to remediate the issue. Payment terms, service credits, and penalties for non-compliance are detailed in the attached schedule. This Agreement also outlines confidentiality obligations, liability limitations, and dispute resolution procedures, and is governed by US Federal Law. Any amendments to this Agreement must be made in writing and agreed upon by both parties.",
+    "serviceDetails": "Cloud hosting, monitoring, incident response",
+    "dateSigned": "2024-01-15",
+    "expiresOn": "2025-01-15",
+    "currentStatus": "Active",
+    "keywords": ["cloud", "uptime", "support"],
+    "metadata": {
+      "documentType": "contract",
+      "source": "internal contract repository",
+      "lastUpdated": "2024-06-20",
+      "version": 2,
+      "region": "North America"
+    }
+  },
+  {
+    "contractId": "CNTR-1002",
+    "clientName": "Badger",
+    "manager_a_access": "false",
+    "manager_b_access": "true",
+    "contractTitle": "Comprehensive IT Support Agreement",
+    "summary": "This Agreement outlines the provision of IT support and network management services by North Star Support to Badger. It is designed to ensure that Badger's IT infrastructure remains robust, secure, and fully operational across its European offices. The services include continuous monitoring, rapid incident response, and regular preventative maintenance, with clearly defined performance metrics and service level targets.",
+    "terms": "Under this Agreement, North Star Support will provide 24/7 monitoring and maintenance services with a guaranteed uptime of 98.5%. In the event of a disruption, immediate remedial actions will be initiated following predefined escalation protocols. The Agreement details the scope of services, pricing, and payment terms, as well as the responsibilities of both parties. This contract is governed by EU Commercial Law and includes provisions for periodic reviews, amendments, and dispute resolution.",
+    "serviceDetails": "Network management, hardware maintenance, incident resolution",
+    "dateSigned": "2024-02-01",
+    "expiresOn": "2025-02-01",
+    "currentStatus": "Active",
+    "keywords": ["IT", "network", "maintenance"],
+    "metadata": {
+      "documentType": "contract",
+      "source": "internal contract repository",
+      "lastUpdated": "2024-07-10",
+      "version": 1,
+      "region": "Europe"
+    }
+  },
+  {
+    "contractId": "CNTR-1003",
+    "clientName": "Charlie",
+    "manager_a_access": "true",
+    "manager_b_access": "true",
+    "contractTitle": "Digital Transformation Partnership Agreement",
+    "summary": "This Agreement establishes a strategic partnership between Charlie and North Star Support to drive digital transformation through enhanced system integration, robust API connectivity, and innovative technology solutions across the Asia-Pacific region. It sets forth the mutual responsibilities, technical specifications, and performance metrics necessary to achieve the desired digital outcomes.",
+    "terms": "North Star Support will deliver advanced integration services designed to streamline operations and improve connectivity between disparate systems. The Agreement guarantees 99.5% uptime during business hours and details the technical and operational support to be provided. In addition, the contract covers data security, intellectual property rights, and dispute resolution mechanisms, all governed by Singapore Commercial Law. Amendments to this Agreement require mutual consent and must be documented in writing.",
+    "serviceDetails": "System integration, API connectivity, innovation consulting",
+    "dateSigned": "2024-03-10",
+    "expiresOn": "2026-03-10",
+    "currentStatus": "Active",
+    "keywords": ["digital", "integration", "API"],
+    "metadata": {
+      "documentType": "contract",
+      "source": "internal contract repository",
+      "lastUpdated": "2024-08-01",
+      "version": 1,
+      "region": "Asia-Pacific"
+    }
+  },
+  {
+    "contractId": "CNTR-1004",
+    "clientName": "Delta",
+    "manager_a_access": "false",
+    "manager_b_access": "false",
+    "contractTitle": "Continuous Monitoring & Maintenance Agreement",
+    "summary": "This Agreement defines the terms under which North Star Support will provide continuous monitoring and maintenance services to Delta. The goal is to ensure reliable operations and swift incident resolution for Delta's IT systems in South America. The services include regular system health checks, performance optimizations, and proactive issue resolution.",
+    "terms": "North Star Support commits to a high standard of service, performing proactive system checks and offering immediate incident resolution. This Agreement specifies performance benchmarks, detailed maintenance schedules, and clear escalation procedures. All service activities are governed by Brazilian Commercial Law. The Agreement also includes confidentiality clauses, procedures for modifications, and termination conditions. Both parties agree to a periodic review of the contract terms to ensure alignment with evolving operational needs.",
+    "serviceDetails": "System monitoring, maintenance, incident resolution",
+    "dateSigned": "2024-04-05",
+    "expiresOn": "2025-04-05",
+    "currentStatus": "Active",
+    "keywords": ["monitoring", "maintenance", "performance"],
+    "metadata": {
+      "documentType": "contract",
+      "source": "internal contract repository",
+      "lastUpdated": "2024-07-25",
+      "version": 1,
+      "region": "South America"
+    }
+  }
+]

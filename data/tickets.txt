@@ -1,0 +1,242 @@
+[
+  {
+    "ticketId": "T-Alpha-001",
+    "company": "Alpha",
+    "manager_a_access": "true",
+    "manager_b_access": "false",
+    "subject": "Intermittent Login Failures",
+    "description": "Users at Alpha are experiencing intermittent login failures, possibly due to SSO integration issues. North Star Support has been notified and is actively investigating the root cause.",
+    "priority": "High",
+    "timeReported": "2025-03-05T08:30:00Z",
+    "status": "Open",
+    "assignedTo": "AgentA1",
+    "tags": ["login", "SSO", "error"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support Portal",
+      "platform": "Web",
+      "lastUpdated": "2025-03-05T09:00:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Alpha-002",
+    "company": "Alpha",
+    "manager_a_access": "true",
+    "manager_b_access": "false",
+    "subject": "Dashboard Load Delay",
+    "description": "The dashboard at Alpha is loading slowly, affecting user productivity. North Star Support is investigating potential caching or API timeout issues.",
+    "priority": "Medium",
+    "timeReported": "2025-03-06T10:00:00Z",
+    "status": "In Progress",
+    "assignedTo": "AgentA2",
+    "tags": ["dashboard", "performance", "API"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support Mobile App",
+      "platform": "iOS",
+      "lastUpdated": "2025-03-06T10:45:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Alpha-003",
+    "company": "Alpha",
+    "manager_a_access": "true",
+    "manager_b_access": "false",
+    "subject": "Billing Calculation Error",
+    "description": "Alpha has reported a billing module error resulting in miscalculated invoice totals. North Star Support is addressing this urgent issue.",
+    "priority": "High",
+    "timeReported": "2025-03-07T14:00:00Z",
+    "status": "Open",
+    "assignedTo": "AgentA3",
+    "tags": ["billing", "calculation", "urgent"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support Portal",
+      "platform": "Web",
+      "lastUpdated": "2025-03-07T15:00:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Badger-001",
+    "company": "Badger",
+    "manager_a_access": "false",
+    "manager_b_access": "true",
+    "subject": "Network Latency Spike",
+    "description": "Badger is experiencing a significant spike in network latency affecting remote office connectivity. North Star Support is investigating potential hardware issues.",
+    "priority": "High",
+    "timeReported": "2025-03-08T09:15:00Z",
+    "status": "Open",
+    "assignedTo": "AgentB1",
+    "tags": ["network", "latency", "hardware"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support Network Monitor",
+      "platform": "Dashboard",
+      "lastUpdated": "2025-03-08T09:45:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Badger-002",
+    "company": "Badger",
+    "manager_a_access": "false",
+    "manager_b_access": "true",
+    "subject": "Email Delivery Issues",
+    "description": "Badger is reporting widespread email delivery failures, potentially due to SMTP misconfigurations. North Star Support is actively working on a resolution.",
+    "priority": "Medium",
+    "timeReported": "2025-03-09T10:30:00Z",
+    "status": "In Progress",
+    "assignedTo": "AgentB2",
+    "tags": ["email", "SMTP", "delivery"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support Email Client",
+      "platform": "Web",
+      "lastUpdated": "2025-03-09T11:00:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Badger-003",
+    "company": "Badger",
+    "manager_a_access": "false",
+    "manager_b_access": "true",
+    "subject": "Printer Queue Jam",
+    "description": "A printer queue jam at Badger's office is causing delays in document printing. North Star Support dispatched a technician who resolved the issue promptly.",
+    "priority": "Low",
+    "timeReported": "2025-03-10T14:20:00Z",
+    "status": "Closed",
+    "assignedTo": "AgentB3",
+    "tags": ["printer", "hardware", "queue"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support On-Site Report",
+      "platform": "Mobile",
+      "lastUpdated": "2025-03-10T14:50:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Charlie-001",
+    "company": "Charlie",
+    "manager_a_access": "true",
+    "manager_b_access": "true",
+    "subject": "API Rate Limit Exceeded",
+    "description": "Charlie is encountering API rate limit issues that are causing intermittent data synchronization failures. North Star Support is monitoring the situation and exploring optimization options.",
+    "priority": "High",
+    "timeReported": "2025-03-11T07:50:00Z",
+    "status": "Open",
+    "assignedTo": "AgentC1",
+    "tags": ["API", "rate limit", "integration"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support API Monitor",
+      "platform": "Dashboard",
+      "lastUpdated": "2025-03-11T08:20:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Charlie-002",
+    "company": "Charlie",
+    "manager_a_access": "true",
+    "manager_b_access": "true",
+    "subject": "Data Sync Delay",
+    "description": "Data synchronization at Charlie is slower than expected, impacting operational efficiency. North Star Support is investigating potential bottlenecks.",
+    "priority": "Medium",
+    "timeReported": "2025-03-12T12:00:00Z",
+    "status": "In Progress",
+    "assignedTo": "AgentC2",
+    "tags": ["data", "sync", "delay"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support Internal Monitor",
+      "platform": "Web",
+      "lastUpdated": "2025-03-12T12:45:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Charlie-003",
+    "company": "Charlie",
+    "manager_a_access": "true",
+    "manager_b_access": "true",
+    "subject": "Integration Test Failures",
+    "description": "Integration tests for new API endpoints at Charlie are failing due to authentication errors. North Star Support is working to implement a temporary workaround.",
+    "priority": "High",
+    "timeReported": "2025-03-13T16:10:00Z",
+    "status": "Open",
+    "assignedTo": "AgentC3",
+    "tags": ["integration", "API", "testing"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support Test Automation",
+      "platform": "CI/CD",
+      "lastUpdated": "2025-03-13T16:40:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Delta-001",
+    "company": "Delta",
+    "manager_a_access": "false",
+    "manager_b_access": "false",
+    "subject": "Service Outage Alert",
+    "description": "Delta experienced a sudden service outage impacting transaction processing. North Star Support has launched an immediate investigation.",
+    "priority": "High",
+    "timeReported": "2025-03-14T08:05:00Z",
+    "status": "Open",
+    "assignedTo": "AgentD1",
+    "tags": ["outage", "transaction"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support System Alert",
+      "platform": "Dashboard",
+      "lastUpdated": "2025-03-14T08:35:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Delta-002",
+    "company": "Delta",
+    "manager_a_access": "false",
+    "manager_b_access": "false",
+    "subject": "Slow Application Response",
+    "description": "Users at Delta report that the main application is responding slowly; backend server issues are suspected. North Star Support is analyzing performance metrics.",
+    "priority": "Medium",
+    "timeReported": "2025-03-15T13:30:00Z",
+    "status": "In Progress",
+    "assignedTo": "AgentD2",
+    "tags": ["performance", "server"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support User Report",
+      "platform": "Web",
+      "lastUpdated": "2025-03-15T14:00:00Z"
+    }
+  },
+  {
+    "ticketId": "T-Delta-003",
+    "company": "Delta",
+    "manager_a_access": "false",
+    "manager_b_access": "false",
+    "subject": "Data Discrepancy Issue",
+    "description": "A discrepancy between dashboard metrics and backend data has been detected at Delta, raising concerns about data integrity. North Star Support is investigating the inconsistency.",
+    "priority": "Medium",
+    "timeReported": "2025-03-16T11:45:00Z",
+    "status": "Open",
+    "assignedTo": "AgentD3",
+    "tags": ["data", "discrepancy"],
+    "provider": "North Star Support",
+    "metadata": {
+      "documentType": "support_ticket",
+      "source": "North Star Support Automated Alert",
+      "platform": "Mobile",
+      "lastUpdated": "2025-03-16T12:15:00Z"
+    }
+  }
+]
