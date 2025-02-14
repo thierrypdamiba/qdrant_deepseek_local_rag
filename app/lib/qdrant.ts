@@ -99,9 +99,9 @@ export async function searchVectors(
         }
 
         // For debugging: if vector length is wrong, use a test vector
-        if (vector.length !== 1536) {
+        if (vector.length !== 4096) {
             console.log(`[${role}] Using test vector due to incorrect vector length (${vector.length})`);
-            vector = Array(1536).fill(0.1); // Create a test vector of the correct size
+            vector = Array(4096).fill(0.1); // Create a test vector of the correct size
         }
 
         console.log(`[DEBUG] Executing search with params:`, {

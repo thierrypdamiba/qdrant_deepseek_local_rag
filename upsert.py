@@ -19,7 +19,7 @@ if not QDRANT_URL or not QDRANT_API_KEY:
     raise ValueError("Please set QDRANT_URL and QDRANT_API_KEY environment variables")
 
 # Connect to Qdrant Cloud
-client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
+client = QdrantClient(url=QDRANT_URL)
 
 # Create collections for both contracts and tickets
 collections = ["contracts", "tickets"]
@@ -31,7 +31,7 @@ for collection_name in collections:
         
     client.create_collection(
         collection_name=collection_name,
-        vectors_config=VectorParams(size=1024, distance=Distance.COSINE)  # Deepseek uses 1024-dimensional vectors
+        vectors_config=VectorParams(size=4096, distance=Distance.COSINE)
     )
     print(f"✅ Created collection {collection_name}")
 
