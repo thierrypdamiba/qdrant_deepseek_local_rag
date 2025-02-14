@@ -9,7 +9,7 @@ type ApiError = {
 export async function POST(request: Request) {
     try {
         const client = getQdrantClient();
-        const { name, size = 1536 } = await request.json();
+        const { name, size = 4096 } = await request.json();
 
         if (!name) {
             return NextResponse.json(
